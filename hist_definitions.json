@@ -1,0 +1,30 @@
+{ "hist":[
+
+  		{"name":"h_sepal_length",
+         "dim":"1D",
+		 "xvar":"SepalLengthCm",
+		 "kind":"kde",
+		 "title":"Sepal Length",
+		 "xlabel":"x",
+		 "ylabel":"y"
+     },
+    {"name":"h_petal_length",
+     "dim":"1D",
+      "xvar":"PetalLengthCm",
+      "kind":"pie",
+      "title":"Petal Length",
+      "xlabel":"x",
+      "ylabel":"y"
+  },
+  {"name":"h_scat",
+    "dim":"2D",
+    "xvar":"SepalLengthCm",
+    "yvar":"PetalLengthCm",
+    "kind":"scatter",
+    "title":"SCatts",
+    "xlabel":"Sepal Length [cm]",
+    "ylabel":"Petal Length [cm]"
+    }
+
+
+]}
